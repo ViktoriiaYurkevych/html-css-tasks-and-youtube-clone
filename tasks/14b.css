@@ -1,0 +1,121 @@
+body {
+        height: 3000px;
+    }
+    div {
+        font-family: Arial;
+    }
+    .sidebar {
+        height: 55px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        position: fixed;
+        top:0;
+        left:0;
+        right:0;
+    }
+    .left-position {
+        display: flex;
+        flex-direction: row;
+        width: 300px;
+        align-items: center;
+        padding-left: 40px;
+    }
+    .cat-image {
+        width: 50px;
+        height: 50px;
+        border-radius: 25px;
+    }
+    .name{
+        font-size: 15px;
+        font-weight: bold;
+        color: black;
+        align-items: center;
+        padding-left: 10px;
+    }
+    .right-position {
+        display: flex;
+        flex-direction: row;
+        width: 300px;
+        justify-content: end;
+        align-items: center;
+        padding-right: 50px;
+    }
+    .add-friend,
+    .message {
+        width: 100px;
+        height: 30px;
+        border-radius: 5px;
+        border:none;
+    }
+    .add-friend {
+        margin-right: 10px;
+        background-color: rgb(49, 111, 205);
+        color: white;
+        font-weight: bold;
+        font-size: 13px;
+    }
+    .message {
+        background-color: rgb(175, 176, 177);
+        color: black;
+        font-weight: bold;
+        font-size: 13px;
+    }
+    .left-sidebar {
+        position: fixed;
+        left: 30px;
+        bottom: 100px;
+        top: 55px;
+        background-color: rgb(38, 36, 36);
+        width: 72px;
+        right:0;
+    }
+    .container-cat {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 20px;
+    }
+
+    .cat-image-two
+    {
+        width: 50px;
+        height: 50px;
+        border-radius: 25px;
+        margin-bottom: 7px;
+    }
+
+    .left-section-two {
+        position: fixed;
+        left: 100px;
+        bottom: 100px;
+        top: 55px;
+        background-color: rgb(61, 60, 60);
+        width: 250px;
+        right:0;
+    }
+    .title-info {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        padding-top: 20px;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+    .text-info {
+        font-size: 17px;
+        font-weight: bold;
+        color: rgb(230, 226, 226);
+    }
+    .plus {
+        color: gray;
+        font-weight: bold;
+        font-size: 17px;
+    }
+    .subtitle-two {
+        font-size: 15px;
+        color: gray;
+        font-weight: bold;
+        padding-left: 20px;
+        padding-top: 10px;
+    }

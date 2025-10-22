@@ -1,0 +1,100 @@
+.textBox-name,
+.textBox-email {
+    display: block;
+    margin-top: 5px;
+}
+.text-description {
+    width: 250px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.google-logo {
+    display: block;
+    width: 200px;
+    margin-left: 150px;
+    margin-bottom: 10px;
+}
+.search-box1 {
+    border: none;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 16px;
+    padding-right: 16px;
+    font-size: 16px;
+    width: 500px;
+    border-radius: 30px;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.2);
+}
+.textBox-firstName,
+.textBox-firstName2 {
+    display:inline-block;
+    border-radius: 5px;
+    border-width: 1px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-left: 5px;
+    padding-right: 5px;
+
+}
+.textBox-firstEmail,
+.button-signUp {
+    display:block;
+}
+.textBox-firstEmail {
+    border-radius: 5px;
+    border-width: 1px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-left: 5px;
+    padding-right: 183px;
+    margin-top: 3px;
+}
+.button-signUp {
+    background-color: rgb(66, 66, 231);
+    font-weight: bold;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    width: 351px;
+    height: 36px;
+    margin-top: 3px;
+}
+
+.text-uber{
+    font-family: Arial;
+    font-size: 30px;
+}
+.input-location,
+.input-destination {
+    display: block;
+    width: 351px;
+    height: 36px;
+    background-color: rgb(216, 216, 216);
+    color: gray;
+    border: none;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+.uber-button {
+    background-color: black;
+    color: white;
+    border:none;
+    height: 36px;
+    width: 120px;
+    cursor: pointer;
+    margin-right: 8px;
+    cursor: pointer;
+    transition: opacity 0.15s;
+}
+.button-schedule {
+    background-color:rgb(216, 216, 216);
+    color: black;
+    border: none;
+    height: 36px;
+    width: 120px;
+    cursor: pointer;
+    margin-right: 8px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: opacity 0.15s;
+}

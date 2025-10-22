@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <header>
+        <title>clothing online</title>
+        <style>
+            body {
+                height: 3000px;
+            }
+            .container {
+                display: inline-block;
+                position: relative;
+                margin-left: 30px;
+            }
+            .t-shirt {
+                height: 300px;
+                width: 300px;
+            }
+            .title {
+                font-family: Arial;
+                font-size: 15px;
+                padding-left: 7px;
+                padding-right: 7px;
+                padding-top: 5px;
+                padding-bottom: 5px;
+                position: absolute;
+                top: 7px;
+                right: 0;
+                background-color: black;
+                color: white;
+            }
+            .square {
+                position: absolute;
+                bottom: 3px;
+                height: 100px;
+                width: 300px;
+                background-color: rgb(255, 255, 255, 70%);
+            }
+            .button-cart {
+                position:absolute;
+                top: 10px;
+                left: 110px;
+                font-family: Arial;
+                font-size: 15px;
+                background-color: rgb(255, 255, 255);
+                color: black;
+                padding-left: 10px;
+                padding-right: 10px;
+                padding-top: 7px;
+                padding-bottom: 7px;
+                border-style: solid;
+            }
+        </style>
+    </header>
+    <body>
+        <div class="container">
+            <img class="t-shirt" src="clothing/t-shirt.jpg">
+            <div class="title">20 &#37; OFF</div>
+        </div>
+
+        <div class="container">
+            <img class="t-shirt" src="clothing/t-shirt.jpg">
+            <div class="title">20 &#37; OFF</div>
+            <div class="square">
+            <!-- <div class="button-icon"> -->
+                <button class="button-cart">Add to Cart</button>
+            <!-- </div>   -->
+        </div>
+    </body>
+</html>

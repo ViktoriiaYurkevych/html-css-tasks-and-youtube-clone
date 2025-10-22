@@ -1,0 +1,157 @@
+
+.red-square {
+    display: inline-block;
+    background-color: red;
+    width: 100px;
+    height: 100px;
+}
+.green-circle {
+    display: inline-block;
+    background-color: green;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+.text-statisfied{
+    font-family: Arial;
+}
+.design-elements {
+    display: inline-block;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(150, 150, 150);
+    width: 300px;
+    padding-left: 15px;
+    padding-bottom: 20px;
+    vertical-align: top;
+}
+.card {
+    display: inline-block;
+    background-color: rgb(54, 54, 54);
+    border:none;
+    width: 320px;
+    padding-left: 15px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    vertical-align: top;
+}
+.title {
+    font-family: Arial;
+    font-weight: bold;  
+    font-size: 20px;
+    color: white;
+}
+.subtitle {
+    font-family: Arial;  
+    font-size: 15px;
+    color: rgb(203, 199, 199);
+}
+.created-shadow {
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 16px;
+    padding-right: 5px;
+    font-size: 16px;
+    width: 360px;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.2);
+}
+.search-box3 {
+    border:none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 50px;
+    border-radius: 18px;
+
+}
+
+.recreate-design {
+    border: none;
+    width: 200px;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.2);
+    margin-top: 30px;
+}
+.images-cat {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    vertical-align: middle;
+}
+.photo-cat {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+.text-name {
+    font-family: Arial;
+    font-weight: bold;  
+    font-size: 15px;
+    padding-left: 10px;
+    margin-bottom:2px;
+}
+.text-subtitle {
+    font-family: Arial;
+    font-weight: solid;  
+    font-size: 12px;
+    color: rgb(137, 136, 136);
+    padding-left: 10px;
+    margin-top:2px;
+}
+.add-friends {
+    background-color:rgb(95, 105, 241);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    height: 36px;
+    width: 100px;
+    cursor: pointer;
+    margin-left: 3px;
+    margin-bottom: 7px;
+}
+.recreate-design1,
+.recreate-design2,
+.recreate-design3 {
+    border: none;
+    width: 200px;
+    box-shadow: 0 1px 15px rgba(0, 0, 0, 0.2);
+    margin-top: 30px;
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: 10px;
+} 
+.googleForms,
+.googleForms1,
+.googleForms2 {
+    text-align: center;
+}
+.google-logo {
+    width: 200px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.search-box1 {
+        border: none;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 16px;
+    padding-right: 16px;
+    font-size: 16px;
+    width: 500px;
+    border-radius: 30px;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.2);
+    margin-bottom: 30px;
+}
+.google-button {
+    background-color: rgb(245, 245, 245);
+    border: none;
+    font-size: 15px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 20px;
+    padding-right: 20px;
+    }
+
+.search-button {
+    margin-right: 10px;
+}

@@ -1,0 +1,43 @@
+    div {
+        font-family: Arial;
+    }
+    .container {
+        background-color: rgb(170, 99, 237);
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        height: 50px;
+        align-items: center;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .flexbox-first {
+        color: white;
+        font-weight: bold;
+    }
+    .flexbox-middle {
+        background-color: white;
+        flex:1;
+        max-width: 500px;
+        
+    }
+    .text-box {
+        width: 500px;
+        border: none;
+        margin-top: 12px;
+        margin-bottom: 12px;
+        height: 30px;
+        border-radius: 15px;
+        padding-left: 20px;
+    }
+    .flexbox-second {
+        background-color: rgb(170, 99, 237);
+        color: white;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 15px;
+        padding-right: 15px;
+        border-color: white;
+        border-style: solid;
+        border-width: 1px;
+    }

@@ -1,0 +1,44 @@
+     div {
+        font-family: Arial;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .flexbox {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 15px;
+        align-items: center;
+        
+    }
+    .flexbox-cat {
+        width: 50px;
+        height: 50px;
+        border-radius: 25px;
+    }
+    .container {
+        line-height: 4px;
+        margin-left: 10px;
+        width: 200px;
+    }
+    .name {
+        font-size: 15px;
+        font-weight: bold;
+    }
+    .subtitle,
+    .description {
+        font-size: 13px;
+        color: gray;
+    }
+    .button-follow {
+        background-color: rgb(29, 155, 240);
+        color: white;
+        border: none;
+        font-size: 16px;
+        font-weight: bold;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 15px;
+        padding-right: 15px;
+        border-radius: 4px;
+        cursor: pointer;
+    }

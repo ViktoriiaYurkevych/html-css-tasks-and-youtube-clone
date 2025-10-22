@@ -1,0 +1,19 @@
+    .container {
+        display:flex;
+        flex-direction: row;
+    }
+    .pink-section {
+        background-color: lightpink;
+        align-items: center;
+        width: 100px;
+        height: 50px;
+    }
+    .blue-section {
+        background-color: lightblue;
+        width: 200px;
+        height: 50px;
+    }
+    .row2{
+        display: flex;
+        justify-content: space-between;
+    }
